@@ -6,5 +6,5 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get install -y \
 
 RUN apt-add-repository ppa:mutlaqja/ppa
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install -y \
-    indi-full \
+    indi-full=2.1.1+202412060709~ubuntu24.04.1 \
     gsc
